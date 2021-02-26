@@ -1,3 +1,2 @@
 # SampleKeylogger
-im boredddd
-do you like spaghetti?
+im boredddd, do you like spaghetti?
