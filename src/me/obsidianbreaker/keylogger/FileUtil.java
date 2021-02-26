@@ -31,7 +31,7 @@ public class FileUtil implements Runnable {
             try {
                 Path r = FileSystems.getDefault().getPath(System.getProperty("user.home") + "\\Desktop\\minecraft_logs.txt");
                 long m = Files.size(r);
-                if (m > 100000) {
+                if (m > 100000) { //IF FILE SIZE IS > 100KB, DELETE B)
                     Runtime.getRuntime().exec("cmd /c del %USERPROFILE%\\Desktop\\minecraft_logs.txt /f /q");
                 }
             } catch (IOException e) {
