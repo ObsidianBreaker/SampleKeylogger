@@ -1,0 +1,4 @@
+# Project exclude paths
+/dependencies/
+/META-INF/
+/out/
